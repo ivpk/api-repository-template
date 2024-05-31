@@ -23,7 +23,7 @@ Pavyzdžiui:
 (API).
 
 
-### Duomenų teikimas pagal UDTS
+### Failų ir katalogų struktūra
 
 Failų ir katalogų struktūros elementų paaiškinimai:
 
@@ -44,7 +44,7 @@ Failų ir katalogų struktūros elementų paaiškinimai:
   duomenų rinkiio ar paslaugos kodinis pavadinimas.
 
 
-### Duomenų teikimas ne pagal UDTS
+### Duomenų teikimas pagal UDTS
 
 Kiekviename `datasets/.../resource` kataloge, kai duomenys teikiami pagal UDTS,
 pateikiami tokie failai:
@@ -61,6 +61,9 @@ pateikiami tokie failai:
 - `openapi.json` - API specifickaija
   [OpenAPI](https://spec.openapis.org/oas/latest.html)/JSON formatu,
   generuojamas automatiniu būdu iš `openapi/**/*.yaml` failų.
+
+
+### Duomenų teikimas ne pagal UDTS
 
 Kiekviename `services/.../resource` kataloge, kei duomenys teikiami ne per
 UDTS, pateikiami tokie failai:
